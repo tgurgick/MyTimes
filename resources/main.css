@@ -18,6 +18,18 @@ h2 {
   font-weight: bold;
 }
 
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
 div {
   border: solid black 1px; /* to help visually see all the divs on page as working through */
 }
@@ -65,3 +77,40 @@ nav span { /* creates more space around the naviation items */
   display: inline-block;
   padding: 20px 10px;
 }
+
+
+/* content columns */
+
+/* Main Content Container -- need to add the .content and .column before making container objects */
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+
+
+
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+
+/* footer */
