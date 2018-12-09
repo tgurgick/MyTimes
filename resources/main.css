@@ -1,3 +1,26 @@
+/* Universal */
+
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  font-size: 17px;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+div {
+  border: solid black 1px; /* to help visually see all the divs on page as working through */
+}
 
 /* NAV BAR */
 
@@ -38,6 +61,7 @@ header nav {
   padding-right: 40px; /* pushes nav to the left of the right edge of page for astetics */
 }
 
-a {
-  color: black; /* formats the anchor tags across the site */
+nav span { /* creates more space around the naviation items */
+  display: inline-block;
+  padding: 20px 10px;
 }
