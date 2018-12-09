@@ -1,0 +1,43 @@
+
+/* NAV BAR */
+
+header {
+  display: flex; /* makes header a flex object */
+  align-items: center; /* centers header text, but not My Times */
+  position: fixed;
+  z-index: 1;
+  width: 100%; /* sets header bar to 100% of page */
+  height: 80px; /* moves bar down slightly by making higher box */
+  border-bottom: 1px solid black; /* creates bottom line */
+  background-color: white; /*preserves white background for bar on scroll*/
+  font-family: "Verdana", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  /* border: solid black 1px; */
+}
+
+.logo {
+  display: flex; /* palces text and image in one container -- sets logo to flex object, subsequently raising "My Times" to top of page */
+  align-items: center; /*centers vertically*/
+  flex-grow: 1; /*sets flex grow so that the my times takes up the majority of the box, pushes nav to right*/
+  padding-left: 30px; /* asteics -- pushes slightly to the right from the left edge */
+  /* border: solid black 1px; */
+}
+
+.logo img { /*edit logo image because it's to the left (will push/adjust the text on the right)*/
+  width: 70px;
+  height: 60px;
+  margin-right: 12px; /* KEY -- puts space between object and text in logo */
+}
+
+.logo span {
+  color: mediumaquamarine; /* changes text color */
+}
+
+header nav {
+  padding-right: 40px; /* pushes nav to the left of the right edge of page for astetics */
+}
+
+a {
+  color: black; /* formats the anchor tags across the site */
+}
